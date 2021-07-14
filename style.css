@@ -54,6 +54,7 @@ span{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    margin-top: 70px;
 }
 .player{
     width: 300px;
@@ -81,15 +82,16 @@ h3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    align-items: center;
     margin: 150px;
 }
 .highlight-blog{
-    width: 400px;
+    width: 470px;
 }
 h2{
     font-size: 40px;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 70px;
     color: #0A0826;
 }
 .match-photo img{
