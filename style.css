@@ -10,7 +10,7 @@ body{
 .container{
     background: #2D25A0;
 }
-.header-combined{
+.top-header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -106,12 +106,15 @@ Football Animation And Messi Specila Video Style
     align-items: center;
     margin-bottom: 130px;
     margin-top: 150px;
+    background-color: rgb(233, 248, 253);
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 h4{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 500;
     background-color: #E02C6D;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     color: #fff;
     text-align: center;
@@ -161,4 +164,21 @@ h4{
 }
 .developer{
     font-size: 18px;
+}
+/* -----------Media Queries----------- */
+
+/* --------------------Mobile Devices-------------------- */
+@media only screen and (max-width:688) {
+    .top-header, .players, .highlight, .animation-video, .footer-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* ------------------------Tablet Devices---------------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .top-header, .highlight, .animation-video, .footer-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
