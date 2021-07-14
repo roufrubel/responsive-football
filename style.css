@@ -97,6 +97,53 @@ h2{
 .match-photo img{
     width: 100%;
 }
+/* ----------------------------------------------------
+Football Animation And Messi Specila Video Style 
+----------------------------------------------------- */
+.animation-video{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 130px;
+    margin-top: 150px;
+}
+h4{
+    font-size: 40px;
+    font-weight: 500;
+    background-color: #E02C6D;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+@keyframes slidding {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    50% {
+        top: 240px;
+    }
+    75% {
+        top: 0;
+    }
+    100% {
+        left: 600px;
+        top: 240px;
+    }
+}
+.stage {
+    height: 440px;
+    width: 800px;
+    background-color: lightgreen;
+}
+.ball {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation: slidding 2s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+}
 /*--------------- Footer Style here ----------------*/
 .footer-section{
     display: grid;
