@@ -178,7 +178,13 @@ h4{
     .top-header, .highlight, .animation-video, .footer-section {
         grid-template-columns: repeat(1, 1fr);
     }
+.header-one, .player, .bio-info, .highlight-blog, .stage, .messi-video{
+    width: 100%;
+}
     .players{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .header-one, .player, .bio-info, .highlight-blog, .stage, .messi-video{
+        width: 100%;
     }
 }
