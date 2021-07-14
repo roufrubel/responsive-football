@@ -24,8 +24,8 @@ body{
 }
 .header-title{
     font-size: 50px;
-    font-weight: bold;
-    line-height: 120px;
+    font-weight: 700;
+    line-height: 80px;
     color: #fff;
 }
 h1{
@@ -88,8 +88,8 @@ h3{
 }
 h2{
     font-size: 40px;
-    font-weight: bold;
-    line-height: 75px;
+    font-weight: 700;
+    line-height: 80px;
     color: #0A0826;
 }
 .match-photo img{
