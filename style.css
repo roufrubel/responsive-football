@@ -1,0 +1,116 @@
+/* ------------Fonts---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*-------------common style---------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* ---------header style----------- */
+.container{
+    background: #2D25A0;
+}
+.header-combined{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 0 150px 60px 150px;
+    padding: 70px 0;
+}
+.header-one{
+    margin-right: 130px;
+}
+.header-two img{
+    width: 95%;
+}
+.header-title{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 120px;
+    color: #fff;
+}
+h1{
+    margin-bottom: 30px;
+}
+.watch-button a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: #fff;
+    font-size: 2em;
+}
+.watch-button i{
+    color: #fff;
+}
+span{
+    background-color: #E02C6D;
+    padding: 20px 35px;
+    transition: padding .3s linear;
+}
+.container:hover span{
+    padding: 30px 70px;
+    background-color: orangered;
+}
+/* ------players photo and details style-------*/
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.player{
+    width: 330px;
+    height: 495px;
+    margin: 30px;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px;
+    border-radius: 5px;
+}
+.player img{
+    width: 330px;
+    height: 256px;
+}
+h3{
+    font-size: 28px;
+    font-weight: bold
+}
+.bio-info{
+    width: 330px;
+    text-align: justify;
+}
+/* <!------------- All Highlight Area Style------------------> */
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 200px;
+}
+.highlight-blog{
+    width: 470px;
+}
+h2{
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #0A0826;
+}
+.match-photo img{
+    width: 90%;
+}
+/*--------------- Footer Style here ----------------*/
+.footer-section{
+    display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+}
+.media .fa-instagram, .fa-dribbble, .fa-twitter, .fa-youtube {
+    font-size: 35px;
+    color: black;
+    background:grey;
+    opacity: 0.3;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.developer{
+    font-size: 18px;
+}
